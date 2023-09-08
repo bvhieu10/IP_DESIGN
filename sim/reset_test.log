@@ -1,0 +1,126 @@
+# vsim -do {run -all;exit} -l reset_test.log -sv_seed random work.reset_test 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# QuestaSim-64 vopt 10.2c Compiler 2013.07 Jul 19 2013
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# QuestaSim-64 vopt 10.2c Compiler 2013.07 Jul 19 2013
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# ** Warning: (vopt-2006) Ambiguous options , toggle and extended toggle both specified.
+# 
+# The option extended toggle is selected.
+# 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.reset_test(fast)
+# Sv_Seed = 4014456934
+# run -all 
+# ===================================
+# ======WRITE - READ - TEST==========
+# ===================================
+# At 121 start writing wdata= b8 to address= 3
+# At 181 write trafer has been finish
+# At 221 start reading rdata at address= 3
+# At 280 rdata= b8
+# At 281 read trafer has been finish
+# ====Valid Address==== 
+# 
+# At time= 281, wdata= 8'hb8, rdata= 8'hb8,--PASS-- 
+# 
+# At 321 start writing wdata= 95 to address= 6
+# At 381 write trafer has been finish
+# At 421 start reading rdata at address= 6
+# At 480 rdata= 95
+# At 481 read trafer has been finish
+# ====Valid Address==== 
+# 
+# At time= 481, wdata= 8'h95, rdata= 8'h95,--PASS-- 
+# 
+# At 521 start writing wdata= 14 to address= a
+# At 581 write trafer has been finish
+# At 621 start reading rdata at address= a
+# At 680 rdata= 0
+# At 681 read trafer has been finish
+# ====In_valid Address==== 
+# 
+# At 721 start writing wdata= f5 to address= 3
+# At 781 write trafer has been finish
+# At 821 start reading rdata at address= 3
+# At 880 rdata= f5
+# At 881 read trafer has been finish
+# ====Valid Address==== 
+# 
+# At time= 881, wdata= 8'hf5, rdata= 8'hf5,--PASS-- 
+# 
+# At 921 start writing wdata= bd to address= a
+# At 981 write trafer has been finish
+# At 1021 start reading rdata at address= a
+# At 1080 rdata= 0
+# At 1081 read trafer has been finish
+# ====In_valid Address==== 
+# 
+# ==>REG value before reset<== 
+# 
+#       REG_A 8'h00
+#       REG_B 8'h00
+#       REG_C 8'h00
+#       REG_D 8'hf5
+#       REG_E 8'h00
+#       REG_F 8'h00
+#       REG_G 8'h95
+#       REG_H 8'h00
+# ==>REG value after reset<== 
+# 
+#       REG A 8'h00
+#       REG B 8'h00
+#       REG C 8'h00
+#       REG D 8'h00
+#       REG E 8'h00
+#       REG F 8'h00
+#       REG G 8'h00
+#       REG H 8'h00
+# =========================
+# ========TEST_PASSED======
+# =========================
+# REG is not reset --PASS--

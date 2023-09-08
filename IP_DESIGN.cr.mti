@@ -1,0 +1,29 @@
+D:/SEMICON_SOURE/BAITAP/IP_DESIGN/cpu_model.v {1 {vlog -work work -vopt D:/SEMICON_SOURE/BAITAP/IP_DESIGN/cpu_model.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module cpu_model
+
+Top level modules:
+	cpu_model
+
+} {} {}} D:/SEMICON_SOURE/BAITAP/IP_DESIGN/ip_core.v {1 {vlog -work work -vopt D:/SEMICON_SOURE/BAITAP/IP_DESIGN/ip_core.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module ip_core
+
+Top level modules:
+	ip_core
+
+} {} {}} D:/SEMICON_SOURE/BAITAP/IP_DESIGN/system_signal.v {1 {vlog -work work -vopt D:/SEMICON_SOURE/BAITAP/IP_DESIGN/system_signal.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module system_signal
+
+Top level modules:
+	system_signal
+
+} {} {}} D:/SEMICON_SOURE/BAITAP/IP_DESIGN/wr_rd_simple.v {1 {vlog -work work -vopt D:/SEMICON_SOURE/BAITAP/IP_DESIGN/wr_rd_simple.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module wr_rd_simple
+
+Top level modules:
+	wr_rd_simple
+
+} {} {}}

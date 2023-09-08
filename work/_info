@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:/questasim64_10.2c/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vcpu_model
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+IQ7NG>1AKX>XB]RllM]JBm1
+Z1 dD:/SEMICON_SOURE/BAITAP/IP_DESIGN
+w1692866887
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/cpu_model.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/cpu_model.v
+L0 1
+Z2 OL;L;10.2c;57
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 HU?Ao8Kg`fS0?Qi0QFhj00
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/cpu_model.v|
+!s108 1693058493.197000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/cpu_model.v|
+!i10b 1
+!i111 0
+vdecoder
+Z4 !s110 1693057999
+Iiz>5?KHJ>f?e]X>?d_f6z1
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+R1
+w1692865901
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/decoder.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/decoder.v
+L0 1
+R2
+r1
+31
+R3
+!s100 `hDk_@aBJ7chP20mKbU@D2
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/decoder.v|
+!s108 1693057999.429000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/decoder.v|
+!i10b 1
+!s85 0
+!i111 0
+vencoder
+R4
+IEOJ8:0jj_AYM[gb5J_igh1
+R5
+R1
+w1692882963
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/encoder.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/encoder.v
+L0 1
+R2
+r1
+31
+R3
+!s100 6U74N9QjV?fB5H97H:oCQ3
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/encoder.v|
+!s108 1693057999.640000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/encoder.v|
+!i10b 1
+!s85 0
+!i111 0
+vip_core
+R5
+r1
+31
+I;8]k@oJlLNm_cj<@m?Z?f3
+R1
+w1693058137
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/ip_core.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/ip_core.v
+L0 2
+R2
+R3
+!s85 0
+!s100 me_@gfUb>aSD1Iln3a1VW2
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/ip_core.v|
+!i10b 1
+!s108 1693058493.709000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/ip_core.v|
+!i111 0
+vsystem_signal
+R5
+r1
+31
+IWYWj>XWG:h5[gKE3lLUZ51
+R1
+w1692552768
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/system_signal.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/system_signal.v
+L0 1
+R2
+R3
+!s85 0
+!s100 m@2UWUXONPPjCZ1^9Z<IW3
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/system_signal.v|
+!s108 1693058493.334000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/system_signal.v|
+!i10b 1
+!i111 0
+vtb_decoder
+I688`n51nMDOZ<ML]ND0gg1
+R5
+R1
+w1692865910
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder.v
+L0 1
+R2
+r1
+31
+R3
+Z6 !s110 1693057937
+!s100 <:iS88bUAXj`W4mO`a0PG1
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder.v|
+!s108 1693057937.160000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_decoder2
+R6
+ID7di7O6UZOO>L2YL5zaiD1
+R5
+R1
+w1692863737
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder2.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder2.v
+L0 1
+R2
+r1
+31
+R3
+!s100 iZ9`cLR@PeDjVJjdc_`_Q0
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder2.v|
+!s108 1693057937.361000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_decoder2.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_encoder
+R6
+IJZMnBiDG:hcjaY^fOClH[0
+R5
+R1
+w1692866316
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_encoder.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_encoder.v
+L0 1
+R2
+r1
+31
+R3
+!s100 ]><z<gVd:JACRI7a@CeL51
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_encoder.v|
+!s108 1693057937.530000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/tb_encoder.v|
+!i10b 1
+!s85 0
+!i111 0
+vtestbench
+R5
+r1
+31
+I>L1H:4`5_Ul5egddcJ5Co2
+R1
+w1693058295
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/testbench.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/testbench.v
+L0 1
+R2
+R3
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/testbench.v|
+!s100 3Ran5fczb>FM44GRa@``>2
+!s108 1693058493.542000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/testbench.v|
+!i10b 1
+!i111 0
+vwr_rd_simple
+R5
+r1
+31
+I67STmV<f_5C7NhkYM2`=23
+R1
+w1693058486
+8D:/SEMICON_SOURE/BAITAP/IP_DESIGN/wr_rd_simple.v
+FD:/SEMICON_SOURE/BAITAP/IP_DESIGN/wr_rd_simple.v
+L0 1
+R2
+R3
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|D:/SEMICON_SOURE/BAITAP/IP_DESIGN/wr_rd_simple.v|
+!s100 6X^=5MNmfHj9lCSb]h0Fo2
+!s108 1693058492.912000
+!s107 D:/SEMICON_SOURE/BAITAP/IP_DESIGN/wr_rd_simple.v|
+!i10b 1
+!i111 0

@@ -1,0 +1,153 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/SEMICON_SOURE/BAITAP/IP_DESIGN/sim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+VTh>Z7ji;IRf;V>d[`57I53
+04 12 4 work wr_rd_simple fast 0
+=1-107d1a08d8b9-64f03db1-376-161c
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.2c;57
+Z3 dD:/SEMICON_SOURE/BAITAP/IP_DESIGN/sim
+!s110 1693466034
+T_opt1
+!s110 1693466193
+VIZG3hlkzH7<NcAZUSOn<C2
+04 10 4 work reset_test fast 0
+=1-107d1a08d8b9-64f03e51-f-a64
+R1
+n@_opt1
+R2
+vcpu_model
+Z4 !s110 1693466189
+IGTA4B7L2_ACJM:9j03fQ41
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+R3
+w1693310481
+8../vip/cpu_model.v
+F../vip/cpu_model.v
+L0 1
+Z6 OL;L;10.2c;57
+r1
+31
+Z7 !s108 1693466189.148000
+Z8 !s107 ../tests/reset_test.v|../tests/wr_rd_simple.v|../vip/system_signal.v|../vip/cpu_model.v|../tb/testbench.v|../rtl/ip_core.v|
+Z9 !s90 +cover=sbceftx|-f|compile.f|
+Z10 !s102 +cover=sbceftx
+Z11 o+cover=sbceftx -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 hF^=DnoAm]29FDYlT5O^h1
+!i10b 1
+!s85 0
+!i111 0
+vip_core
+R4
+IS>=QB61HVXCR]k3VYRQ0B0
+R5
+R3
+w1693401133
+8../rtl/ip_core.v
+F../rtl/ip_core.v
+L0 2
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 `<MIMFce?Sg<7zDQn`VE42
+!i10b 1
+!s85 0
+!i111 0
+vreset_test
+R4
+I71l4O?E=oVX1;l<L@@nI>3
+R5
+R3
+w1693466143
+8../tests/reset_test.v
+F../tests/reset_test.v
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+!s100 5z0kf8H@i`Y_^NSHZoOFI3
+!s85 0
+!i111 0
+vsystem_signal
+R4
+I;hfRWeeeVRjZa:Qn8ZaW13
+R5
+R3
+w1693304137
+8../vip/system_signal.v
+F../vip/system_signal.v
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 HO77Il8Z@eG9?a9SZl^6Q3
+!i10b 1
+!s85 0
+!i111 0
+vtestbench
+R4
+I6<=UmOU3g]JiYDe6FBbYX1
+R5
+R3
+w1693310778
+8../tb/testbench.v
+F../tb/testbench.v
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 mU6S[[c<^7`U9]35d>cBH1
+!i10b 1
+!s85 0
+!i111 0
+vwr_rd_simple
+R4
+IYCIP[LgS`?z[aH>Sb<_GA1
+R5
+R3
+w1693466019
+8../tests/wr_rd_simple.v
+F../tests/wr_rd_simple.v
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 mL38W9CZ=l?eBNhmJ_V4A1
+!i10b 1
+!s85 0
+!i111 0
